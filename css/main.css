@@ -42,14 +42,36 @@ h3 {
 /*Slide 1 - Intro Disco*/
 
 .slide-1 {
-  background: url("../img/lmp-1.jpg") center;
+  background: url("../img/lmp-3.jpg") center;
   background-size: cover;
+}
+
+.icn-disco img {
+  display: inline-block;
+  opacity: 0.9;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px -4px 0;
+}
+
+.icn-disco a {
+  display: inline-block;
+}
+
+.bandcamp-link {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .integrantes {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+.link-disco {
+  font-size: 16px;
+  font-style: italic;
 }
 
 /*Slide 2 - Biografía*/
@@ -62,7 +84,7 @@ h3 {
 /*Slide 3 - Entrevistas y reseña*/
 
 .slide-3 {
-  background: url("../img/lmp-3.jpg") center;
+  background: url("../img/lmp-1.jpg") center;
   background-size: cover;
 }
 
@@ -90,10 +112,8 @@ h3 {
 
 .slide-5 img {
   margin: 25px;
-  width: 300px;
+  width: 140px;
 }
-
-.lb-outerContainer { margin-top: 90px; }
 
 /*Slide 6 - Contacto*/
 
