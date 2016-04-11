@@ -8,17 +8,16 @@ html {
   font-weight: 400;
 }
 
-li { list-style: none; }
-ul { padding-left: 0; }
-
 a {
   color: white;
   text-decoration: none;
 }
 
-span { font-weight: 700; }
 h1 { font-size: 40px; }
 h2 { font-size: 30px; }
+li { list-style: none; }
+ul { padding-left: 0; }
+span { font-weight: 700; }
 
 h3 {
   font-size: 26px;
@@ -54,9 +53,7 @@ h3 {
   margin: 0 5px -4px 0;
 }
 
-.icn-disco a {
-  display: inline-block;
-}
+.icn-disco a { display: inline-block; }
 
 .bandcamp-link {
   display: block;
@@ -133,3 +130,15 @@ h3 {
 }
 
 .icn img:hover { opacity: 1; }
+
+@media screen and (max-width: 600px) {
+  html, .subtitle , span { font-size: 14px; }
+  .slide-2 .subtitle, .integrantes { font-size: 12px; }
+  .logo { width: 90%; }
+  .tapa-disco { width: 250px; }
+  .subtitle { width: 80%; }
+  .slide-2 .pp-tableCell { vertical-align: top; }
+  h3 { margin-bottom: 5px; }
+  .icn img { width: 45px; }
+  .img-section-7, .img-section-8, .img-section-9, .img-section-10, .img-section-11 { display: none; }
+}
