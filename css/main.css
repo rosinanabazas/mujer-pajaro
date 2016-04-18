@@ -95,6 +95,8 @@ h3 {
 
 /*Slide 4 - Próximos Shows*/
 
+.past { color: #4c4c49; }
+
 .slide-4 {
   background: url("../img/lmp-4.jpg") center;
   background-size: cover;
@@ -110,6 +112,7 @@ h3 {
 }
 
 .slide-5 img {
+  border: 1px solid white;
   margin: 25px;
   width: 140px;
 }
@@ -135,7 +138,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
   html, .subtitle , span { font-size: 14px; }
-  .slide-2 .subtitle, .integrantes { font-size: 12px; }
+  .slide-2 .subtitle, .integrantes { font-size: 11px; }
   .logo { width: 90%; }
   .tapa-disco { width: 250px; }
   .subtitle { width: 80%; }
