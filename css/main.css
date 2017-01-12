@@ -41,7 +41,7 @@ h3 {
 /*Slide 1 - Intro Disco*/
 
 .slide-1 {
-  background: url("../img/lmp-3.jpg") center;
+  background: url("../img/lmp-7.jpg") center;
   background-size: cover;
 }
 
@@ -117,14 +117,25 @@ h3 {
   width: 140px;
 }
 
-/*Slide 6 - Contacto*/
+iframe {
+  margin: 0 20px 20px 0;
+}
+
+/*Slide 5 - Videos*/
 
 .slide-6 {
+  background: url("../img/lmp-3.jpg") center;
+  background-size: cover;
+}
+
+/*Slide 6 - Contacto*/
+
+.slide-7 {
   background: url("../img/lmp-2.jpg") center;
   background-size: cover;
 }
 
-.slide-6 h3 { margin-bottom: 10px; }
+.slide-7 h3 { margin-bottom: 10px; }
 
 .icn img {
   display: inline-block;
