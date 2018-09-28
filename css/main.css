@@ -1,11 +1,11 @@
 /*General styles*/
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: white;
   font-size: 18px;
   text-align: center;
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 a {
@@ -13,158 +13,63 @@ a {
   text-decoration: none;
 }
 
-h1 { font-size: 40px; }
-h2 { font-size: 30px; }
+h1 {
+  letter-spacing: 6px;
+  font-size: 32px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto 20px;
+}
+
+.tapa-disco {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
 li { list-style: none; }
 ul { padding-left: 0; }
 span { font-weight: 700; }
 
-h3 {
-  font-size: 26px;
-  font-style: italic;
-  margin-bottom: 30px;
-}
-
-.logo {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.subtitle {
-  font-size: 16px;
-  width: 56%;
-  margin: 15px auto;
-}
-
-.tapa-disco { width: 350px; }
-
-/*Slide 1 - Intro Disco*/
-
-.slide-1 {
-  background: url("../img/lmp-7.jpg") center;
+.hero {
+  background: url("../img/bg-nuevo.jpg") center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 7%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-
-.icn-disco img {
-  display: inline-block;
-  opacity: 0.9;
-  width: 20px;
-  height: 20px;
-  margin: 0 5px -4px 0;
-}
-
-.icn-disco a { display: inline-block; }
-
-.bandcamp-link {
-  display: block;
-  margin-bottom: 30px;
-}
-
-.integrantes {
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-}
-
-.link-disco {
-  font-size: 16px;
-  font-style: italic;
-}
-
-/*Slide 2 - Biografía*/
-
-.slide-2 {
-  background: url("../img/lmp-6.jpg") center;
-  background-size: cover;
-}
-
-/*Slide 3 - Entrevistas y reseña*/
-
-.slide-3 {
-  background: url("../img/lmp-1.jpg") center;
-  background-size: cover;
-}
-
-.slide-3 a { opacity: 0.9; }
-.slide-3 a:hover { opacity: 1; }
-
-.presskit-title {
-  display: block;
-  margin: 30px 0 15px;
-}
-
-/*Slide 4 - Próximos Shows*/
-
-.past { color: #4c4c49; }
-
-.slide-4 {
-  background: url("../img/lmp-4.jpg") center;
-  background-size: cover;
-}
-
-.slide-4 li { margin-bottom: 5px; }
-
-/*Slide 5 - Fotos*/
-
-.slide-5 {
-  background: url("../img/lmp-5.jpg") center;
-  background-size: cover;
-}
-
-.slide-5 img {
-  border: 1px solid white;
-  margin: 25px;
-  width: 140px;
-}
-
-iframe {
-  margin: 0 20px 20px 0;
-}
-
-/*Slide 5 - Videos*/
-
-.slide-6 {
-  background: url("../img/lmp-3.jpg") center;
-  background-size: cover;
-}
-
-/*Slide 6 - Contacto*/
-
-.slide-7 {
-  background: url("../img/lmp-2.jpg") center;
-  background-size: cover;
-}
-
-.slide-7 h3 { margin-bottom: 10px; }
 
 .icn img {
   display: inline-block;
   opacity: 0.9;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
 
 .icn img:hover { opacity: 1; }
 
 @media screen and (max-width: 600px) {
-  html, .subtitle , span { font-size: 14px; }
-  .slide-2 .subtitle, .integrantes { font-size: 11px; }
-  .logo { width: 90%; }
-  .tapa-disco { width: 250px; }
-  .subtitle { width: 80%; }
-  .slide-2 .pp-tableCell { vertical-align: top; }
-
-  .slide-2 h1 {
-    font-size: 26px;
-    margin-bottom: 0;
+  .icn img {
+    margin-right: 4px;
   }
 
-  .slide-2 h3 { font-size: 18px; }
-  .slide-5 img { width: 90px; }
+  h2 { font-size: 20px; }
+  .hero { padding-top: 25%; }
 
-  h3 { margin-bottom: 5px; }
-  .icn img { width: 40px; }
-  .img-section-7, .img-section-8, .img-section-9, .img-section-10, .img-section-11 { display: none; }
-  .slide-4 ul { margin: 0 45px; }
+  .tapa-disco {
+    width: 80%;
+  }
 }
